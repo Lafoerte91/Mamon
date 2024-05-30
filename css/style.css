@@ -237,10 +237,23 @@
 .footer {
   padding-top: 20px;
   padding-bottom: 20px;
-  min-height: 100px;
-  background-color: #B2B2B2;
+  background-color: #F7F7F7;
+}
+
+.footer__row {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.social {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.social a {
+  text-decoration: none;
+  color: #B2B2B2
+}
